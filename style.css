@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk";
+    background-color:hsl(221, 100%, 96%);
+}
+body{
+    min-width: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.cards{
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 3px 8px;
+    border-radius: 2rem;
+    width: 650px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+}
+.result{
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 50%;
+    padding: 1.5rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.result .title{
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 1rem;
+}
+.result .circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 4rem;
+    margin: 0;
+}
+
+.circle b{
+    margin: 0;
+    color: (241, 100%, 89%);
+}
+
