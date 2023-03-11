@@ -20,12 +20,11 @@ body{
     width: 650px;
     background-color: hsl(0, 0%, 100%);
     display: flex;
-    justify-content: space-between;
 }
 .result{
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     width: 50%;
-    padding: 1.5rem 2rem;
+    padding: 3rem 1.5rem;
     border-radius: 2rem;
     text-align: center;
     display: flex;
@@ -55,6 +54,32 @@ body{
 
 .circle b{
     margin: 0;
-    color: (241, 100%, 89%);
+    color: hsl(241, 100%, 89%);
 }
-
+.info{
+    margin: 0;
+}
+.info h1{
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 25px;
+}
+.info p{
+    color: hsl(241, 100%, 89%);
+    margin: 0rem;
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    font-size: 18px;
+}
+.main{
+    margin: 0;
+    padding: 0;
+    
+}
+.sumarry{
+    width: 50%;
+    padding: 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
