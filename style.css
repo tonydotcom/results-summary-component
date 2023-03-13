@@ -8,23 +8,27 @@ html{
     background-color:hsl(221, 100%, 96%);
 }
 body{
-    min-width: 100vh;
-    margin: 0;
+    min-width: 100vw;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     }
+.card-container{
+    display: flex;
+    width: 100%;
+}
 .cards{
     box-shadow: rgba(0, 0, 0, 0.20) 0px 3px 8px;
     border-radius: 2rem;
     width: 650px;
     background-color: hsl(0, 0%, 100%);
-    display: flex;
+    
 }
 .result{
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     width: 50%;
-    padding: 3rem 1.5rem;
+    padding: 1rem 1.5rem;
     border-radius: 2rem;
     text-align: center;
     display: flex;
@@ -77,9 +81,118 @@ body{
     padding: 0;
     
 }
-.sumarry{
+.sumario{
     width: 50%;
-    padding: 3rem 1.5rem;
     display: flex;
     flex-direction: column;
+    padding: 1rem 1.5rem;
+}
+.sumario h1{
+    color: hsl(224, 30%, 27%);
+    margin-bottom: 1rem;
+}
+.rows{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8;
+}
+.badge{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+.row-one{
+    background-color: hsla(0, 100%, 67%, 0.09);
+    margin: 0.5rem 0.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-one b{
+    color: hsl(0, 100%, 67%);
+    margin-left: 0.5rem;
+}
+.row-one p{
+    color: gray;
+    margin-right: 0.5rem;
+}
+.row-one p b2{
+    color: black;
+}
+.row-two{
+    background-color: hsla(39, 100%, 56%, 0.09);
+    margin: 0.5rem 0.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-two b{
+    color: hsl(39, 100%, 56%);
+    margin-left: 0.5rem;
+}
+.row-two p{
+    color: gray;
+    margin-right: 0.5rem;
+}
+.row-two p b2{
+    color: black;
+}
+.row-three{
+    background-color: hsl(166, 100%, 37%, 0.09);
+    margin: 0.5rem 0.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-three b{
+    color: hsl(166, 100%, 37%);
+    margin-left: 0.5rem;
+}
+.row-three p{
+    color: gray;
+    margin-right: 0.5rem;
+}
+.row-three p b2{
+    color: black;
+}
+.row-four{
+    background-color: hsl(234, 85%, 45%, 0.09);
+    margin: 0.5rem 0.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-four b{
+    color: hsl(234, 85%, 45%);
+    margin-left: 0.5rem;
+}
+.row-four p{
+    color: gray;
+    margin-right: 0.5rem;
+}
+.row-four p b2{
+    color: black;
+}
+.button{
+    width: 15rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem .5rem;
+    padding: 0.2rem 0.2rem;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: 0.01ms;
+    color: white;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));   
+}
+.button:hover{
+    background: hsl(224, 30%, 27%);
 }
